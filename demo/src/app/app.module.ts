@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { NgAdminLteModule } from '../../../dist';
+import { NgAdminLteModule } from 'ng-admin-lte';
 import { AppComponent } from './app.component';
 
 @NgModule({
