@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.json",
+  "angularCompilerOptions": {
+    "paths": {
+      "ng-admin-lte": ["../lib/public-api.ts"]
+    }
+  },
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc/app",
+    "module": "es2015",
+    "baseUrl": "",
+    "types": []
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ],
+  "paths": {
+    "ng-admin-lte": ["../lib/public-api.ts"]
+  }
+}

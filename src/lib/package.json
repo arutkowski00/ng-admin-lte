@@ -1,0 +1,12 @@
+{
+  "$schema": "../../node_modules/ng-packagr/package.schema.json",
+  "name": "ng-admin-lte",
+  "version": "0.1.0",
+  "repository": "https://github.com/arutkowski00/ng-admin-lte.git",
+  "author": "Adam Rutkowski <a_rutkowski@outlook.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "@angular/common": "^4.0.0"
+  }
+}
