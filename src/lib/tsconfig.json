@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.json",
+  "angularCompilerOptions": {
+    "paths": {
+      "ng-admin-lte": ["./"]
+    }
+  },
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc/lib",
+    "module": "es2015",
+    "baseUrl": ""
+  },
+  "exclude": [
+    "**/*.spec.ts"
+  ],
+  "paths": {
+    "ng-admin-lte": ["./"]
+  }
+}

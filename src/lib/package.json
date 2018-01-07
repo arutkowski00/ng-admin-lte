@@ -1,5 +1,4 @@
 {
-  "$schema": "../../node_modules/ng-packagr/package.schema.json",
   "name": "ng-admin-lte",
   "version": "0.1.0",
   "repository": "https://github.com/arutkowski00/ng-admin-lte.git",
@@ -8,5 +7,9 @@
   "peerDependencies": {
     "@angular/core": "^4.0.0",
     "@angular/common": "^4.0.0"
+  },
+  "optionalDependencies": {
+    "admin-lte": "^2.3.0",
+    "bootstrap": "^3.3.7"
   }
 }
