@@ -10,6 +10,9 @@ import { MainSidebarToggleDirective } from './main-sidebar-toggle/main-sidebar-t
 import { MainSidebarComponent } from './main-sidebar/main-sidebar.component';
 import { MainSidebarService } from './main-sidebar/main-sidebar.service';
 import { WrapperComponent } from './wrapper/wrapper.component';
+import { TreeviewDirective } from './treeview/treeview.directive';
+import { TreeviewMenuDirective } from './treeview-menu/treeview-menu.directive';
+import { TreeviewToggleDirective } from './treeview-toggle/treeview-toggle.directive';
 
 const PUBLIC_DECLARATIONS: Array<Type<any> | any[]> = [
   ControlSidebarComponent,
@@ -18,6 +21,9 @@ const PUBLIC_DECLARATIONS: Array<Type<any> | any[]> = [
   MainHeaderComponent,
   MainSidebarComponent,
   MainSidebarToggleDirective,
+  TreeviewDirective,
+  TreeviewMenuDirective,
+  TreeviewToggleDirective,
   WrapperComponent
 ];
 
