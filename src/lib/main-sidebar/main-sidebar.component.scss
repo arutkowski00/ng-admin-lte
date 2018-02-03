@@ -1,0 +1,6 @@
+.treeview {
+  &.menu-open > .treeview-menu {
+    transform: scaleY(1);
+    display: block;
+  }
+}
