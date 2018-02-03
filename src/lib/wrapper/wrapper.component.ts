@@ -10,7 +10,7 @@ import { MainSidebarService } from '../main-sidebar/main-sidebar.service';
 export class WrapperComponent implements OnChanges, OnInit {
   private sidebarCollapse: boolean;
   private sidebarMini: boolean;
-  private skinClass: string;
+  private skinClass?: string;
 
   @Input() color: string;
   @Input() light: boolean;
